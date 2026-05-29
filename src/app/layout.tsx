@@ -5,18 +5,6 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "UKUDL Space",
   description: "Personal & professional links hub by UKUDL",
-  icons: {
-    icon: [
-      { url: "/UKUDL.png", type: "image/png" },
-    ],
-    shortcut: "/UKUDL.png",
-    apple: [
-      { url: "/UKUDL.png", type: "image/png" },
-    ],
-    other: [
-      { rel: "apple-touch-icon-precomposed", url: "/UKUDL.png" },
-    ],
-  },
   openGraph: {
     title: "UKUDL Space",
     description: "Personal & professional links hub by UKUDL",
@@ -36,11 +24,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <head>
-        <link rel="icon" type="image/png" href="/UKUDL.png" />
-        <link rel="apple-touch-icon" href="/UKUDL.png" />
-        <link rel="shortcut icon" href="/UKUDL.png" />
-      </head>
       <body className="min-h-full flex flex-col">
         {children}
         <Analytics />
