@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "UKUDL — Links",
+  title: "UKUDL Space",
   description: "Personal & professional links hub by UKUDL",
   openGraph: {
-    title: "UKUDL — Links",
+    title: "UKUDL Space",
     description: "Personal & professional links hub by UKUDL",
     images: ["/UKUDL.png"],
   },
   twitter: {
     card: "summary",
-    title: "UKUDL — Links",
+    title: "UKUDL Space",
     images: ["/UKUDL.png"],
   },
 };
