@@ -4,6 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "UKUDL — Links",
   description: "Personal & professional links hub by UKUDL",
+  icons: {
+    icon: "/UKUDL.png",
+    apple: "/UKUDL.png",
+  },
   openGraph: {
     title: "UKUDL — Links",
     description: "Personal & professional links hub by UKUDL",
